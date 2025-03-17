@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("PickWaterFromFishingHoles")]
 [assembly: AssemblyCopyright("Romain")]
-[assembly: AssemblyVersion("1.0.0")]
-[assembly: AssemblyFileVersion("1.0.0")]
-[assembly: MelonInfo(typeof(PickWaterFromFishingHoles.Main), "PickWaterFromFishingHoles", "1.0.0", "Romain")]
+[assembly: AssemblyVersion("1.1.0")]
+[assembly: AssemblyFileVersion("1.1.0")]
+[assembly: MelonInfo(typeof(PickWaterFromFishingHoles.Main), "PickWaterFromFishingHoles", "1.1.0", "Romain")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
