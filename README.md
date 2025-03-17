@@ -5,4 +5,4 @@
 
 ![image](https://github.com/user-attachments/assets/ea2a8aef-7d59-4c9b-a979-83caedface68)
 
-
+[![Github All Releases](https://img.shields.io/github/downloads/RomainDeschampsFR/PickWaterFromFishingHoles/total.svg)]()
