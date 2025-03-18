@@ -63,7 +63,7 @@ namespace PickWaterFromFishingHoles
         {
             private static void Postfix(Panel_PickWater __instance)
             {
-                if (__instance.m_WaterSource != null && __instance.m_WaterSource.name.Contains("FishingHole"))
+                if (__instance.m_WaterSource != null && __instance.m_WaterSource.name.Contains("FishingHole") && __instance.m_ExecuteAction == PickWaterExecuteAction.TakeFromWaterSource)
                 {
                     __instance.m_WaterSource.m_CurrentLiquidQuality = LiquidQuality.NonPotable;
                     __instance.m_WaterSource.m_Capacity = ItemLiquidVolume.FromLiters(1000);
